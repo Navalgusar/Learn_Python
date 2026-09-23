@@ -48,10 +48,10 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 | # | Problem | Difficulty | Tags |
 |---|---|---|---|
-| 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score%21) | ⚪ Unrated | Basic Data Types, Find The Runner-Up Score! |
-| 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage) | ⚪ Unrated | Basic Data Types |
-| 3 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions) | ⚪ Unrated | Basic Data Types |
-| 4 | [Nested Lists](HackerRank/basic_data_types/nested_lists) | ⚪ Unrated | Basic Data Types |
+| 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score%21) | 🟢 Easy | Sets, Sorting, Basic Data Types, Find The Runner-Up Score! |
+| 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage) | 🟢 Easy | Dictionaries, Lists, String Formatting, Basic Data Types |
+| 3 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions) | 🟢 Easy | List Comprehensions, Nested Loops, Basic Data Types |
+| 4 | [Nested Lists](HackerRank/basic_data_types/nested_lists) | 🟢 Easy | Nested Lists, Sorting, Sets, Basic Data Types |
 
 </details>
 
@@ -60,12 +60,12 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 | # | Problem | Difficulty | Tags |
 |---|---|---|---|
-| 1 | [Arithmetic Operators](HackerRank/introduction/Arithmetic%20Operators) | ⚪ Unrated | Introduction |
-| 2 | [Python Division](HackerRank/introduction/Python%20Division) | ⚪ Unrated | Introduction |
-| 3 | [Python If Else](HackerRank/introduction/Python%20If-Else) | ⚪ Unrated | Introduction, Python If-Else |
-| 4 | [Python Loops](HackerRank/introduction/Python%20Loops) | ⚪ Unrated | Introduction |
-| 5 | [Python Print Function](HackerRank/introduction/Python%20Print%20Function) | ⚪ Unrated | Introduction |
-| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29) | ⚪ Unrated | Introduction, Write A Function (Leap Year) |
+| 1 | [Arithmetic Operators](HackerRank/introduction/Arithmetic%20Operators) | 🟢 Easy | Arithmetic Operators, Print Function, Introduction |
+| 2 | [Python Division](HackerRank/introduction/Python%20Division) | 🟢 Easy | Division, Arithmetic Operators, Introduction |
+| 3 | [Python If Else](HackerRank/introduction/Python%20If-Else) | 🟢 Easy | Conditionals, Control Flow, Modulo Operator, Introduction, Python If-Else |
+| 4 | [Python Loops](HackerRank/introduction/Python%20Loops) | 🟢 Easy | Loops, Exponentiation, Introduction |
+| 5 | [Python Print Function](HackerRank/introduction/Python%20Print%20Function) | 🟢 Easy | Functions, Boolean Logic, Modulo Operator, Introduction |
+| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29) | 🟢 Easy | Print Function, Unpacking Operator, Introduction, Write A Function (Leap Year) |
 
 </details>
 
