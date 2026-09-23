@@ -65,7 +65,7 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 | 3 | [Python If Else](HackerRank/introduction/Python%20If-Else) | 🟢 Easy | Conditionals, Control Flow, Modulo Operator, Introduction, Python If-Else |
 | 4 | [Python Loops](HackerRank/introduction/Python%20Loops) | 🟢 Easy | Loops, Exponentiation, Introduction |
 | 5 | [Python Print Function](HackerRank/introduction/Python%20Print%20Function) | 🟢 Easy | Functions, Boolean Logic, Modulo Operator, Introduction |
-| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29) | 🟢 Easy | Print Function, Unpacking Operator, Introduction, Write A Function (Leap Year) |
+| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29) | 🟠 Medium | Print Function, Unpacking Operator, Introduction, Write A Function (Leap Year) |
 
 </details>
 
