@@ -24,10 +24,19 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 ### GfG-160 Progress
 <!-- GFG_PROGRESS_START -->
-**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 0 / 160 ]** (0.0%)
+**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 1 / 160 ]** (0.6%)
 <!-- GFG_PROGRESS_END -->
 
 <!-- GFG_TABLE_START -->
+
+<details>
+<summary><b>Arrays</b></summary>
+
+| # | Problem | Difficulty | Tags |
+|---|---|---|---|
+| 1 | [Secondlargest](GfG_160/01_Arrays/secondLargest.py) | ⚪ Unrated | Arrays |
+
+</details>
 
 <!-- GFG_TABLE_END -->
 
@@ -39,10 +48,10 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 | # | Problem | Difficulty | Tags |
 |---|---|---|---|
-| 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score%21) | ⚪ Unrated | Basic Data Types, Find The Runner-Up Score! |
-| 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage) | ⚪ Unrated | Basic Data Types |
-| 3 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions) | ⚪ Unrated | Basic Data Types |
-| 4 | [Nested Lists](HackerRank/basic_data_types/nested_lists) | ⚪ Unrated | Basic Data Types |
+| 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score%21/README.md) | ⚪ Unrated | Basic Data Types, Find The Runner-Up Score! |
+| 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage/README.md) | ⚪ Unrated | Basic Data Types |
+| 3 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions/README.md) | ⚪ Unrated | Basic Data Types |
+| 4 | [Nested Lists](HackerRank/basic_data_types/nested_lists/README.md) | ⚪ Unrated | Basic Data Types |
 
 </details>
 
@@ -51,12 +60,12 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 | # | Problem | Difficulty | Tags |
 |---|---|---|---|
-| 1 | [Arithmetic Operators](HackerRank/introduction/Arithmetic%20Operators) | ⚪ Unrated | Introduction |
-| 2 | [Python Division](HackerRank/introduction/Python%20Division) | ⚪ Unrated | Introduction |
-| 3 | [Python If Else](HackerRank/introduction/Python%20If-Else) | ⚪ Unrated | Introduction, Python If-Else |
-| 4 | [Python Loops](HackerRank/introduction/Python%20Loops) | ⚪ Unrated | Introduction |
-| 5 | [Python Print Function](HackerRank/introduction/Python%20Print%20Function) | ⚪ Unrated | Introduction |
-| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29) | ⚪ Unrated | Introduction, Write A Function (Leap Year) |
+| 1 | [Arithmetic Operators](HackerRank/introduction/Arithmetic%20Operators/README.md) | ⚪ Unrated | Introduction |
+| 2 | [Python Division](HackerRank/introduction/Python%20Division/README.md) | ⚪ Unrated | Introduction |
+| 3 | [Python If Else](HackerRank/introduction/Python%20If-Else/README.md) | ⚪ Unrated | Introduction, Python If-Else |
+| 4 | [Python Loops](HackerRank/introduction/Python%20Loops/README.md) | ⚪ Unrated | Introduction |
+| 5 | [Python Print Function](HackerRank/introduction/Python%20Print%20Function/README.md) | ⚪ Unrated | Introduction |
+| 6 | [Leap Year](HackerRank/introduction/Write%20a%20Function%20%28Leap%20Year%29/README.md) | ⚪ Unrated | Introduction, Write A Function (Leap Year) |
 
 </details>
 
