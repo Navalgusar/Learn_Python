@@ -24,10 +24,38 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 ### GfG-160 Progress
 <!-- GFG_TABLE_START -->
+
 <!-- GFG_TABLE_END -->
 
 ### HackerRank Progress
 <!-- HR_TABLE_START -->
+
+<details>
+<summary><b>Basic Data Types</b></summary>
+
+| # | Problem | Difficulty | Tags |
+|---|---|---|---|
+| 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score!/find_the_runner-up_score.py) |  |  |
+| 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage/finding_the_percentage.py) |  |  |
+| 3 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions/list_comprehensions.py) |  |  |
+| 4 | [Nested Lists](HackerRank/basic_data_types/nested_lists/nested_lists.py) |  |  |
+
+</details>
+
+<details>
+<summary><b>Introduction</b></summary>
+
+| # | Problem | Difficulty | Tags |
+|---|---|---|---|
+| 1 | [Arithmetic Operators](HackerRank/introduction/Arithmetic Operators/Arithmetic Operators.py) |  |  |
+| 2 | [Python Division](HackerRank/introduction/Python Division/Python_Division.py) |  |  |
+| 3 | [Python If Else](HackerRank/introduction/Python If-Else/Python-If_Else.py) |  |  |
+| 4 | [Python Loops](HackerRank/introduction/Python Loops/Python_Loops.py) |  |  |
+| 5 | [Python Print Function](HackerRank/introduction/Python Print Function/Python_Print_Function.py) |  |  |
+| 6 | [Leap Year](HackerRank/introduction/Write a Function (Leap Year)/leap_year.py) |  |  |
+
+</details>
+
 <!-- HR_TABLE_END -->
 
 ---
