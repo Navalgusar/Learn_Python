@@ -92,11 +92,13 @@ def generate_table_for_directory(base_dir):
             for file in py_files:
                 file_path = os.path.join(root, file).replace('\\', '/')
                 
+                # Default link is the python file
                 target_link = file_path
+                
+                # If a README exists in this folder, link to the FOLDER instead
                 for readme_name in ['README.md', 'readme.md', 'Readme.md']:
-                    potential_readme = os.path.join(root, readme_name)
-                    if os.path.exists(potential_readme):
-                        target_link = potential_readme.replace('\\', '/')
+                    if os.path.exists(os.path.join(root, readme_name)):
+                        target_link = root.replace('\\', '/')
                         break
                 
                 # Encode the URL to safely handle spaces and parentheses
@@ -129,14 +131,12 @@ def update_readme():
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Generate content
     gfg_table = generate_table_for_directory("GfG_160")
     hr_table = generate_table_for_directory("HackerRank")
     
     gfg_count = get_problem_count("GfG_160")
     gfg_progress_text = generate_progress_bar(gfg_count, total=160)
     
-    # Inject Progress Bar
     content = re.sub(
         r'(<!-- GFG_PROGRESS_START -->).*?(<!-- GFG_PROGRESS_END -->)',
         f"\\1\n{gfg_progress_text}\n\\2",
@@ -144,7 +144,6 @@ def update_readme():
         flags=re.DOTALL
     )
 
-    # Inject Tables
     content = re.sub(
         r'(<!-- GFG_TABLE_START -->).*?(<!-- GFG_TABLE_END -->)',
         f"\\1\n\n{gfg_table}\\2",
