@@ -1,3 +1,6 @@
+# Difficulty: Easy
+# Tags: List Comprehensions, Nested Loops
+
 if __name__ == '__main__':
     x = int(input())
     y = int(input())

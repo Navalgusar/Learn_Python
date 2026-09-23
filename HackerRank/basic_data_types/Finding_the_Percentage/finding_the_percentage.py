@@ -1,3 +1,6 @@
+# Difficulty: Easy
+# Tags: Dictionaries, Lists, String Formatting
+
 if __name__ == '__main__':
     n = int(input())
     student_marks = {}

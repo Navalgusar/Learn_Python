@@ -1,3 +1,6 @@
+# Difficulty: Easy
+# Tags: Conditionals, Control Flow, Modulo Operator
+
 import math
 import os
 import random

@@ -1,3 +1,6 @@
+# Difficulty: Easy
+# Tags: Nested Lists, Sorting, Sets
+
 if __name__ == '__main__':
     students = []
     for _ in range(int(input())):
