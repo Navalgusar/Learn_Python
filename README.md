@@ -1,117 +1,98 @@
-# 🐍Python Daily Practice
+# 🐍 Python Daily Practice
 
 Welcome to my **Python learning and problem-solving journey**!
 
-This repository contains my daily Python practice, coding challenges, and solutions from different programming platforms.
+This repository tracks my daily Python practice, algorithmic challenges, and solutions across programming platforms.
 
-I’m building my Python skills step by step through **consistent daily practice**, starting with HackerRank and planning to move on to LeetCode and other platforms as I progress.
-
----
+I am building my software engineering and problem-solving foundation step by step through **consistent daily coding**, starting with **GeeksforGeeks (GfG-160)** and advancing toward competitive programming on **Codeforces**.
 
 ## 🎯 Goals
 
-* 🐍 Learn Python from the fundamentals to advanced concepts
-* 💻 Practice Python every day
-* 🧠 Improve problem-solving and logical thinking
-* 📚 Learn Data Structures & Algorithms
-* 🏆 Complete Python challenges on HackerRank
-* 🔥 Start solving problems on LeetCode
-* 🛠️ Eventually build real-world Python projects
-* 📈 Track my progress and stay consistent
+* 🐍 Master Python from core syntax to advanced paradigms
+* 💻 Write clean, well-documented code every day
+* 🧠 Strengthen logical thinking and algorithmic problem-solving
+* 📚 Master Data Structures & Algorithms (DSA)
+* 🏆 Complete all challenges in the **GfG-160** series
+* 🔥 Progress to competitive programming on **Codeforces**
+* 📈 Maintain a verifiable public log of consistency and growth
 
----
+## 📚 GfG-160 Progress Checklist
 
-## 📚 What I'm Learning
+Track my journey through the GeeksforGeeks 160-day challenge roadmap:
 
-* [ ] Python Basics
-* [ ] Variables & Data Types
-* [ ] Conditional Statements
-* [ ] Loops
-* [ ] Functions
+* [ ] Arrays
 * [ ] Strings
-* [ ] Lists
-* [ ] Tuples
-* [ ] Sets
-* [ ] Dictionaries
-* [ ] List Comprehensions
-* [ ] Exception Handling
-* [ ] File Handling
-* [ ] Object-Oriented Programming
-* [ ] Modules & Packages
-* [ ] Recursion
-* [ ] Data Structures
-* [ ] Algorithms
-* [ ] Problem Solving
-
----
+* [ ] Sorting
+* [ ] Searching
+* [ ] Matrix
+* [ ] Hashing
+* [ ] Two Pointer Technique
+* [ ] Prefix Sum
+* [ ] Linked List
+* [ ] Recursion & Backtracking
+* [ ] Tree
+* [ ] Binary Search Tree (BST)
+* [ ] Heap / Priority Queue
+* [ ] Stack
+* [ ] Queue & Deque
+* [ ] Dynamic Programming
+* [ ] Greedy Algorithms
+* [ ] Graph
+* [ ] Disjoint Set (Union-Find)
+* [ ] Trie
 
 ## 🌐 Practice Platforms
 
-### 🟢 HackerRank
-
-Currently using HackerRank to practice Python fundamentals and improve problem-solving skills.
-
-### 🔵 LeetCode
-
-Planning to start LeetCode after building a stronger foundation in Python.
-
----
+| Platform | Status | Focus Area |
+| :--- | :--- | :--- |
+| **🟢 GeeksforGeeks (GfG)** | `Active` | DSA Fundamentals & GfG-160 Challenge |
+| **🟠 HackerRank** | `Active` | Python Syntax, Built-ins & Core Libraries |
+| **🔵 Codeforces** | `Planned` | Competitive Programming & Speed Optimization |
 
 ## 📂 Repository Structure
 
 ```text
 Learn_Python/
 │
-├── HackerRank/
-│   ├── introduction/
-│   │   ├── Python-If_Else/
-│   │   ├── Arithmetic Operators/
-│   │   └── ...
+├── GfG_160/
+│   ├── 01_Arrays/
+│   ├── 02_Strings/
+│   ├── 03_Sorting/
+│   └── ...
 │
-├── LeetCode/
-│   ├── Easy/
-│   ├── Medium/
-│   └── Hard/
+├── HackerRank/
+│   ├── Introduction/
+│   │   ├── Python_If_Else.py
+│   │   └── Arithmetic_Operators.py
+│   ├── Basic_Data_Types/
+│   └── Strings/
+│
+├── Codeforces/
+│   └── ...
 │
 └── README.md
 ```
 
----
+## 📈 Roadmap & Milestones
 
-## 📈 Progress
-
-**Current Focus:** Python Fundamentals 🐍
-
-**Next Goal:** Data Structures & Algorithms 🧠
-
-**Future Goal:** LeetCode + Real-World Python Projects 🚀
-
----
+* **Current Focus:** Python Core Mastery & GfG-160 Core Data Structures 🐍
+* **Next Milestone:** Advanced DSA (Trees, Graphs, Dynamic Programming) 🧠
+* **Future Vision:** Codeforces Contests + Real-World Applied Python Projects 🚀
 
 ## 💡 Why This Repository?
 
-This repository is not just a collection of solutions.
+This repository is more than a storage bin for solutions—it is an authentic record of continuous learning:
 
-It is a record of my **learning journey**.
+> **Where I started → What I learned → How I improved → Where I am now.**
 
-I want to be able to look back and see:
+Early implementations might not always be $O(1)$ space or optimal time. The priority is **understanding mechanics, debugging edge cases, and iteratively refactoring**.
 
-> Where I started → What I learned → How I improved → Where I am now.
+## 🔥 Daily Rule
 
-Some solutions may not be the most optimized because the main purpose is **learning and understanding**.
+> *"Code every day. Learn something every day. Improve one step at a time."*
 
----
+**Consistency > Motivation 💪**
 
-## 🔥 My Rule
+## 🌱 Evolution
 
-> **Code every day. Learn something every day. Improve one step at a time.**
-
-Consistency > Motivation 💪
-
----
-
-## 🌱 Journey
-
-This repository will continue to evolve as I learn more about Python, problem solving, Data Structures & Algorithms, and software development.
-
-
+This repository will continuously update as I tackle more complex algorithmic paradigms, optimize time/space complexities, and bridge DSA into full-scale software development.
