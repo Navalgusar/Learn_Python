@@ -24,19 +24,10 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 ### GfG-160 Progress
 <!-- GFG_PROGRESS_START -->
-**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 1 / 160 ]** (0.6%)
+**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 0 / 160 ]** (0.0%)
 <!-- GFG_PROGRESS_END -->
 
 <!-- GFG_TABLE_START -->
-
-<details>
-<summary><b>Arrays</b></summary>
-
-| # | Problem | Difficulty | Tags |
-|---|---|---|---|
-| 1 | [Secondlargest](GfG_160/01_Arrays/secondLargest.py) | ⚪ Unrated | Arrays |
-
-</details>
 
 <!-- GFG_TABLE_END -->
 
