@@ -1,4 +1,4 @@
-# Difficulty: Easy
+# Difficulty: Medium
 # Tags: Print Function, Unpacking Operator
 
 if __name__ == '__main__':
