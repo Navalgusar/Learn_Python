@@ -1,8 +1,9 @@
 import os
 import re
+import urllib.parse
 
 def extract_metadata(filepath):
-    """Scans the first 20 lines of a file for Difficulty and Tags comments."""
+    """Scans the first 20 lines of a file for Difficulty and explicit Tags."""
     difficulty = ""
     tags = ""
     
@@ -21,7 +22,6 @@ def extract_metadata(filepath):
     except Exception:
         pass
 
-    # Format difficulty with visual indicators matching the reference UI
     if difficulty.lower() == 'easy':
         difficulty = '🟢 Easy'
     elif difficulty.lower() == 'medium':
@@ -38,7 +38,41 @@ def format_name(filename):
     name = name.replace('-', ' ')
     return name.title()
 
-def generate_table_for_directory(base_dir, is_nested=False):
+def generate_folder_tags(root_path, base_dir):
+    """Generates a list of tags by cleaning up the parent folder names."""
+    rel_path = os.path.relpath(root_path, base_dir)
+    if rel_path == '.':
+        return []
+        
+    folders = rel_path.split(os.sep)
+    tags = []
+    
+    for folder in folders:
+        clean_folder = re.sub(r'^\d+_', '', folder)
+        clean_folder = clean_folder.replace('_', ' ').title()
+        tags.append(clean_folder)
+        
+    return tags
+
+def get_problem_count(base_dir):
+    """Counts the total number of .py files in the directory."""
+    if not os.path.exists(base_dir):
+        return 0
+    
+    count = 0
+    for root, _, files in os.walk(base_dir):
+        count += len([f for f in files if f.endswith('.py')])
+    return count
+
+def generate_progress_bar(solved, total=160, bar_length=10):
+    """Generates a visual markdown progress bar."""
+    filled_length = int(bar_length * solved // total)
+    bar = '🟩' * filled_length + '⬜' * (bar_length - filled_length)
+    percentage = round((solved / total) * 100, 1)
+    
+    return f"**Challenge Progress:** {bar} **[ {solved} / {total} ]** ({percentage}%)"
+
+def generate_table_for_directory(base_dir):
     if not os.path.exists(base_dir):
         return ""
     
@@ -53,18 +87,37 @@ def generate_table_for_directory(base_dir, is_nested=False):
         output += "| # | Problem | Difficulty | Tags |\n|---|---|---|---|\n"
         
         count = 1
-        # os.walk handles deeply nested structures like HR's 'basic_data_types/Finding_the_Percentage/'
         for root, _, files in sorted(os.walk(cat_path)):
             py_files = sorted([f for f in files if f.endswith('.py')])
             for file in py_files:
                 file_path = os.path.join(root, file).replace('\\', '/')
                 
-                # Use filename as problem name as requested
+                target_link = file_path
+                for readme_name in ['README.md', 'readme.md', 'Readme.md']:
+                    potential_readme = os.path.join(root, readme_name)
+                    if os.path.exists(potential_readme):
+                        target_link = potential_readme.replace('\\', '/')
+                        break
+                
+                # Encode the URL to safely handle spaces and parentheses
+                target_link = urllib.parse.quote(target_link, safe='/')
+                
                 problem_name = format_name(file)
+                diff, explicit_tags = extract_metadata(os.path.join(root, file))
+                folder_tags = generate_folder_tags(root, base_dir)
                 
-                diff, tags = extract_metadata(file_path)
+                all_tags = []
+                if explicit_tags:
+                    all_tags.extend([t.strip() for t in explicit_tags.split(',')])
                 
-                output += f"| {count} | [{problem_name}]({file_path}) | {diff} | {tags} |\n"
+                for ft in folder_tags:
+                    if ft not in all_tags and ft.lower() != problem_name.lower():
+                        all_tags.append(ft)
+                        
+                final_tags = ", ".join(all_tags) if all_tags else "-"
+                final_diff = diff if diff else "⚪ Unrated"
+                
+                output += f"| {count} | [{problem_name}]({target_link}) | {final_diff} | {final_tags} |\n"
                 count += 1
                 
         output += "\n</details>\n\n"
@@ -76,11 +129,22 @@ def update_readme():
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Generate tables
+    # Generate content
     gfg_table = generate_table_for_directory("GfG_160")
     hr_table = generate_table_for_directory("HackerRank")
     
-    # Inject GfG
+    gfg_count = get_problem_count("GfG_160")
+    gfg_progress_text = generate_progress_bar(gfg_count, total=160)
+    
+    # Inject Progress Bar
+    content = re.sub(
+        r'(<!-- GFG_PROGRESS_START -->).*?(<!-- GFG_PROGRESS_END -->)',
+        f"\\1\n{gfg_progress_text}\n\\2",
+        content,
+        flags=re.DOTALL
+    )
+
+    # Inject Tables
     content = re.sub(
         r'(<!-- GFG_TABLE_START -->).*?(<!-- GFG_TABLE_END -->)',
         f"\\1\n\n{gfg_table}\\2",
@@ -88,7 +152,6 @@ def update_readme():
         flags=re.DOTALL
     )
     
-    # Inject HackerRank
     content = re.sub(
         r'(<!-- HR_TABLE_START -->).*?(<!-- HR_TABLE_END -->)',
         f"\\1\n\n{hr_table}\\2",
