@@ -51,7 +51,7 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 | 1 | [Find The Runner Up Score](HackerRank/basic_data_types/Find_the_Runner-Up_Score%21) | 🟢 Easy | Sets, Sorting, Basic Data Types, Find The Runner-Up Score! |
 | 2 | [Finding The Percentage](HackerRank/basic_data_types/Finding_the_Percentage) | 🟢 Easy | Dictionaries, Lists, String Formatting, Basic Data Types |
 | 3 | [Lists](HackerRank/basic_data_types/Lists) | 🟢 Easy | List Methods, String Parsing, Basic Data Types |
-| 4 | [Tuple](HackerRank/basic_data_types/Tuples) | ⚪ Unrated | Basic Data Types, Tuples |
+| 4 | [Tuple](HackerRank/basic_data_types/Tuples) | 🟢 Easy | Tuples, Data Types, Built-ins, Basic Data Types |
 | 5 | [List Comprehensions](HackerRank/basic_data_types/list_comprehensions) | 🟢 Easy | List Comprehensions, Nested Loops, Basic Data Types |
 | 6 | [Nested Lists](HackerRank/basic_data_types/nested_lists) | 🟢 Easy | Nested Lists, Sorting, Sets, Basic Data Types |
 
