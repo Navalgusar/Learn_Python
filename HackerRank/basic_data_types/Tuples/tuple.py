@@ -1,7 +1,5 @@
-# Note: HackerRank's test cases for this problem expect the legacy hashing 
-# algorithm used in Python 3.7 and earlier. If you get a "Wrong Answer" 
-# in the Python 3 environment, switch the language dropdown to PyPy3 or 
-# use the custom hashing workaround.
+# Difficulty: Easy
+# Tags: Tuples, Data Types, Built-ins
 
 def old_tuple_hash(t):
     
