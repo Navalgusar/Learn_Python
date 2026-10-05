@@ -24,7 +24,7 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 ### GfG-160 Progress
 <!-- GFG_PROGRESS_START -->
-**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 1 / 160 ]** (0.6%)
+**Challenge Progress:** ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **[ 2 / 160 ]** (1.2%)
 <!-- GFG_PROGRESS_END -->
 
 <!-- GFG_TABLE_START -->
@@ -34,7 +34,8 @@ Welcome to my **Python learning and problem-solving journey**! This repository t
 
 | # | Problem | Difficulty | Tags |
 |---|---|---|---|
-| 1 | [Secondlargest](GfG_160/01_Arrays/secondLargest.py) | 🟢 Easy | Arrays, Searching |
+| 1 | [Moveallzerotoend](GfG_160/01_Arrays/moveAllZeroToEnd.py) | 🟢 Easy | Arrays |
+| 2 | [Secondlargest](GfG_160/01_Arrays/secondLargest.py) | 🟢 Easy | Arrays, Searching |
 
 </details>
 
